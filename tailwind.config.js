@@ -6,11 +6,32 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontWeight:{
+      "100":"100",
+      "300":"300",
+      "400":"400",
+      "700":"700",
+      "900":"900",
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      gridTemplateColumns: {
+        "auto-fit": "repeat(auto-fit, minmax(200px,1fr))",
+      },
+      spacing: {
+        container: `max(
+            1rem,
+            calc((100vw - calc(1440px - 1rem * 2)) / 2)
+            )`,
+        "sm-container": `max(
+            1rem,
+            calc((100vw - calc(550px - 1rem * 2)) / 2)
+            )`,
+      },
+      colors: {
+        blackX: "#212121",
+        pinkX: "#FFEFEF",
+        redX: "#D24648",
+        whiteX: "#FFFFFF",
       },
     },
   },
