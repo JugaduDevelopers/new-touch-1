@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-2xl mb-2 md:text-4xl xl:text-6xl font-900 text-blackX;
+  @apply text-2xl mb-2 sm:text-3xl md:mb-5 xl:text-6xl font-900 text-blackX;
 }
 h2 {
   @apply text-5xl font-700 text-blackX;
@@ -15,5 +15,5 @@ h4 {
   @apply text-2xl font-700 text-blackX;
 }
 p {
-  @apply text-base mb-2 md:text-lg xl:text-xl text-blackX text-opacity-80 font-700;
+  @apply text-sm mb-2 sm:text-base md:mb-5 xl:text-xl text-blackX text-opacity-80 font-700;
 }

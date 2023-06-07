@@ -1,11 +1,16 @@
-import Banner from "@/components/Banner";
-import Slider from "@/components/Slider";
+import Banner from "../components/Banner";
+import Consultation from "@/containers/consultation";
 import React from "react";
 
 type Props = {};
 
 const Home = (props: Props) => {
-  return <Banner />;
+  return (
+    <>
+      <Banner />
+      <Consultation />
+    </>
+  );
 };
 
 export default Home;
