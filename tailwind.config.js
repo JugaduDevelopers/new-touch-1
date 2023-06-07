@@ -1,17 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontWeight:{
-      "100":"100",
-      "300":"300",
-      "400":"400",
-      "700":"700",
-      "900":"900",
+    fontWeight: {
+      100: "100",
+      300: "300",
+      400: "400",
+      700: "700",
+      900: "900",
     },
     extend: {
       gridTemplateColumns: {
@@ -33,7 +33,10 @@ module.exports = {
         redX: "#D24648",
         whiteX: "#FFFFFF",
       },
+      backgroundImage: {
+        banner: "url('../../public/images/bannerImage.png')",
+      },
     },
   },
   plugins: [],
-}
+};

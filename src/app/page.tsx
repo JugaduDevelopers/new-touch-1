@@ -1,17 +1,11 @@
+import Banner from "@/components/Banner";
+import Slider from "@/components/Slider";
+import React from "react";
 
-import React from 'react'
-
-type Props = {}
+type Props = {};
 
 const Home = (props: Props) => {
-  return (
-    <section className="bg-whiteX">
-    <div className="container mx-auto">
-hello
- </div>
-  </section>
-  )
-}
+  return <Banner />;
+};
 
-export default Home
-
+export default Home;
