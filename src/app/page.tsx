@@ -1,5 +1,6 @@
+import ResurfacingCard from "@/components/ResurfacingCard";
 import Banner from "../components/Banner";
-import Consultation from "@/containers/consultation";
+import Consultation from "@/components/consultation";
 import React from "react";
 
 type Props = {};

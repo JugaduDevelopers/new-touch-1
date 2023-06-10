@@ -9,11 +9,48 @@ h2 {
   @apply text-5xl font-700 text-blackX;
 }
 h3 {
-  @apply text-4xl font-700 text-blackX;
+  @apply mb-2 md:mb-5 text-4xl font-700 text-blackX;
 }
 h4 {
   @apply text-2xl font-700 text-blackX;
 }
 p {
   @apply text-sm mb-2 sm:text-base md:mb-5 xl:text-xl text-blackX text-opacity-80 font-700;
+}
+
+.colorSplitLaserTech {
+  background: linear-gradient(
+    to bottom,
+    pink 0%,
+    pink 70%,
+    white 70%,
+    white 100%
+  );
+  @media only screen and (max-width: 768px) {
+    background: linear-gradient(to bottom, pink 0%, pink 100%);
+  }
+}
+
+.rc-accordion-toggle {
+  @apply bg-pinkX flex items-center justify-between transition-all duration-1000 border-2 border-redX border-opacity-60 rounded-md;
+}
+
+.rc-accordion-toggle.active .rotateIcon {
+  transform: rotate(180deg);
+}
+
+.rc-accordion-title {
+  @apply relative text-xs sm:text-lg text-blackX font-700 mb-0 transition-all duration-700;
+}
+
+.rc-accordion-card {
+  @apply mb-5 overflow-hidden max-w-4xl;
+}
+
+.rc-collapse {
+  @apply bg-greyX w-[90%] relative h-0 overflow-hidden transition-all duration-500 ease-in-out;
+}
+
+.rc-collapse.show {
+  @apply h-auto;
 }
