@@ -77,10 +77,10 @@ const DragableDiv = () => {
   }, []);
 
   return (
-    <section className="bg-blue-500 min-h-screen">
-      <div className="container mx-auto p-5 sm:p-10">
+    <section className="bg-blue-500  ">
+      <div className="container mx-auto p-5 sm:p-10 min-h-screen bg-red-500">
         <div>
-          <div className="relative  sm:max-w-5xl  h-auto rounded-xl ">
+          <div className="relative  sm:max-w-5xl    rounded-xl ">
             <div
               className="absolute top-0 left-0 text-white z-30 w-full"
               id="drag"

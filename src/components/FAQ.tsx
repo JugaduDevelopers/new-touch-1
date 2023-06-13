@@ -8,7 +8,7 @@ type Props = { faqs: FAQData[] };
 const FAQ = ({ faqs }: Props) => {
   return (
     <section>
-      <div className=" container mx-auto p-5 min-h-screen flex flex-col items-center justify-center">
+      <div className=" container mx-auto p-5 sm:py-10  flex flex-col items-center justify-center">
         <h3 className="text-center">Frequently Asked Questions</h3>
         <p className="text-center">
           We encourage your feedback, please feel free to send us a messageusing

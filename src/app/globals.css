@@ -54,3 +54,22 @@ p {
 .rc-collapse.show {
   @apply h-auto;
 }
+
+/* new styles added */
+.swiper-button {
+  @apply bg-pinkX h-7 text-base text-darkPinkX border-opacity-60 flex rounded-md border-2 border-blackX drop-shadow-2xl aspect-square  items-center justify-center;
+  position: absolute;
+  top: calc(50% - 12px);
+  z-index: 10;
+  cursor: pointer;
+}
+.image-swiper-button-prev {
+  left: 3%;
+}
+.image-swiper-button-next {
+  right: 3%;
+}
+.swiper-button-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
