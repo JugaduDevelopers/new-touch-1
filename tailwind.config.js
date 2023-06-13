@@ -41,7 +41,7 @@ module.exports = {
         banner: "url('../../public/images/bannerImage.png')",
       },
       aspectRatio: {
-        sliderDragableImage: "5 / 3",
+        sliderDragableImage: "3/1",
       },
     },
   },
