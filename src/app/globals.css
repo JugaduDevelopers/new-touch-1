@@ -9,7 +9,7 @@ h2 {
   @apply text-5xl font-700 text-blackX;
 }
 h3 {
-  @apply mb-2 md:mb-5 text-4xl font-700 text-blackX;
+  @apply text-2xl mb-2 md:mb-5 sm:text-4xl font-700 text-blackX;
 }
 h4 {
   @apply text-2xl font-700 text-blackX;
@@ -21,8 +21,8 @@ p {
 .colorSplitLaserTech {
   background: linear-gradient(
     to bottom,
-    pink 0%,
-    pink 70%,
+    #ffd7d7 0%,
+    #ffd7d7 70%,
     white 70%,
     white 100%
   );

@@ -77,41 +77,39 @@ const DragableDiv = () => {
   }, []);
 
   return (
-    <section className="  ">
-      <div className="container mx-auto p-5 sm:p-10   sm:flex sm:items-center sm:justify-center">
-        <div className="relative min-w-[400] sm:min-w-[600px] lg:min-w-[800px] xl:min-w-[1024px]  rounded-xl ">
-          <div
-            className="absolute top-0 left-0 text-white z-30 w-full"
-            id="drag"
-            ref={dragRef}
-            style={{ height: `${initialHeight}px` }}
-          >
-            <div className="overflow-hidden h-full w-full relative z-30 bg-slate-600 rounded-3xl">
-              <Image
-                src={Image2}
-                alt="jjjj"
-                ref={imageRef}
-                className="w-full aspect-sliderDragableImage "
-              />
-            </div>
-            <div className="absolute -bottom-4 sm:-bottom-[22px] left-0  w-full flex justify-center items-center z-50 px-7">
-              <div className="h-[3px] w-full bg-whiteX"></div>
-              <div className="cursor-pointer p-[2px] sm:p-2 aspect-square rounded-full bg-whiteX flex items-center justify-center border-black border-[1px] border-opacity-25 drop-shadow-2xl">
-                <h6 className="text-black text-xs">Drag</h6>
-              </div>
-              <div className="h-[3px] w-full bg-whiteX"></div>
-            </div>
-          </div>
-          <div className="w-full aspect-sliderDragableImage bg-slate-300 rounded-3xl overflow-hidden">
+    <div className="py-5 sm:flex sm:items-center sm:justify-center">
+      <div className="relative min-w-[400] sm:min-w-[600px] lg:min-w-[800px] xl:min-w-[1024px]  rounded-xl ">
+        <div
+          className="absolute top-0 left-0 text-white z-30 w-full"
+          id="drag"
+          ref={dragRef}
+          style={{ height: `${initialHeight}px` }}
+        >
+          <div className="overflow-hidden h-full w-full relative z-30 bg-slate-600 rounded-3xl">
             <Image
-              src={DragablePicture}
-              alt="dragablePic"
-              className="w-full h-full"
+              src={Image2}
+              alt="jjjj"
+              ref={imageRef}
+              className="w-full aspect-sliderDragableImage "
             />
           </div>
+          <div className="absolute -bottom-4 sm:-bottom-[22px] left-0  w-full flex justify-center items-center z-50 px-7">
+            <div className="h-[1px] sm: w-full bg-whiteX"></div>
+            <div className="cursor-pointer p-[2px] sm:p-2 aspect-square rounded-full bg-whiteX flex items-center justify-center border-black border-[1px] border-opacity-25 drop-shadow-2xl">
+              <h6 className="text-black text-xs">Drag</h6>
+            </div>
+            <div className="h-[1px] sm:h-[3px] w-full bg-whiteX"></div>
+          </div>
+        </div>
+        <div className="w-full aspect-sliderDragableImage bg-slate-300 rounded-3xl overflow-hidden">
+          <Image
+            src={DragablePicture}
+            alt="dragablePic"
+            className="w-full h-full"
+          />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

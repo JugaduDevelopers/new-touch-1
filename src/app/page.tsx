@@ -6,7 +6,6 @@ import Gallery from "@/components/Gallery";
 import Statistics from "@/components/Statistics";
 import Blog from "@/components/Blog";
 import Different from "@/components/Different";
-import LaserScroll from "@/components/LaserScroll";
 
 type Props = {};
 
@@ -19,7 +18,6 @@ const Home = (props: Props) => {
       <Statistics />
       <Blog />
       <Different />
-      <LaserScroll />
     </>
   );
 };

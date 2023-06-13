@@ -16,11 +16,11 @@ const SliderScreen = (props: Props) => {
         <p className="text-center md:text-star">
           Count on us for expert guidance on your skin care journey.
         </p>
-        <div className=" flex flex-row justify-center items-center sm:gap-3 gap-2 ">
-          <button className="text-xs md:text-base md:px-4 bg-redX px-2 py-2 rounded-sm text-whiteX md:min-w-[130px]">
+        <div className=" flex flex-col sm:flex-row justify-center items-center sm:gap-3 gap-1 ">
+          <button className="text-xs md:text-base md:px-4 bg-redX px-2 py-3 sm:py-2 rounded-sm text-whiteX min-w-[130px]">
             Get Consultation
           </button>
-          <button className="text-xs bg-white md:text-base px-3 py-2 md:px-6  rounded-sm text-redX  border-2 border-redX md:min-w-[130px]">
+          <button className="text-xs bg-white md:text-base px-3 py-2 md:px-6  rounded-sm text-redX  border-2 border-redX min-w-[130px]">
             Special Offers
           </button>
         </div>
