@@ -40,6 +40,9 @@ module.exports = {
       backgroundImage: {
         banner: "url('../../public/images/bannerImage.png')",
       },
+      aspectRatio: {
+        sliderDragableImage: "5 / 3",
+      },
     },
   },
   plugins: [],

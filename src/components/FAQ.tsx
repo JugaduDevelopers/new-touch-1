@@ -15,10 +15,10 @@ const FAQ = ({ faqs }: Props) => {
           the following contact form.
         </p>
         <AccordionBox faqs={faqs} />
-        {/* <div className="hidden md:block md:absolute md:top-56 md:max-w-full  md:overflow-hidden ">
-          <CurveLines />
-        </div> */}
       </div>
+      {/* <div className="hidden md:block md:absolute md:top-44 md:max-w-full  md:overflow-hidden ">
+        <CurveLines />
+      </div> */}
     </section>
   );
 };
