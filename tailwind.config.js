@@ -16,7 +16,7 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        "auto-fit": "repeat(auto-fit, minmax(200px,1fr))",
+        "auto-fit": "repeat(auto-fit, minmax(300px,1fr))",
       },
       spacing: {
         container: `max(
@@ -36,6 +36,7 @@ module.exports = {
         darkPinkX: "#F39297",
         greyX: "#f5f5f5",
         peach: "#FFD7D7",
+        line: "#E4A9A9",
       },
       backgroundImage: {
         banner: "url('../../public/images/bannerImage.png')",
