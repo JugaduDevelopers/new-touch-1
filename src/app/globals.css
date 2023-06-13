@@ -17,3 +17,58 @@ h4 {
 p {
   @apply text-base mb-2 md:text-lg xl:text-xl text-blackX text-opacity-80 font-700;
 }
+
+hr.zig,
+hr.zag {
+  border: none;
+  height: 30px;
+  margin: 0 50px;
+}
+
+hr.zig {
+  background: linear-gradient(-135deg, #fff 20px, rgba(0, 0, 0, 0) 0) 0 5px,
+    linear-gradient(135deg, #fff 20px, rgba(0, 0, 0, 0) 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 100;
+  position: relative;
+}
+
+hr.zag {
+  background: linear-gradient(-135deg, #333 20px, rgba(0, 0, 0, 0) 0) 0 5px,
+    linear-gradient(135deg, #333 20px, #fff 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 50;
+  margin-top: -28px;
+}
+
+.diffShadow {
+  box-shadow: 2rem 3rem #f5f5f5;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.text-container {
+  overflow: hidden;
+}
+
+.scrolling-text {
+  text-shadow: 0 0 4px #d24648;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #d24648;
+  white-space: nowrap;
+  display: inline-block;
+  animation: scrolling 20s linear infinite;
+}
