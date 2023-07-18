@@ -17,3 +17,11 @@ h4 {
 p {
   @apply text-base mb-2 md:text-lg xl:text-xl text-blackX text-opacity-80 font-700;
 }
+
+footer {
+  @apply text-white;
+
+  h4 {
+    @apply text-whiteX mb-2;
+  }
+}

@@ -32,6 +32,7 @@ module.exports = {
         pinkX: "#FFEFEF",
         redX: "#D24648",
         whiteX: "#FFFFFF",
+        darkred: "#9E2E33",
       },
       backgroundImage: {
         banner: "url('../../public/images/bannerImage.png')",
