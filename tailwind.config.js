@@ -33,6 +33,7 @@ module.exports = {
         pinkX: "#FFEFEF",
         redX: "#D24648",
         whiteX: "#FFFFFF",
+        darkred: "#9E2E33",
         darkPinkX: "#F39297",
         greyX: "#f5f5f5",
         peach: "#FFD7D7",

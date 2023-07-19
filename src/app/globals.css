@@ -139,3 +139,31 @@ hr.zag {
   display: inline-block;
   animation: scrolling 20s linear infinite;
 }
+
+footer {
+  @apply text-white;
+
+  h4 {
+    @apply text-whiteX mb-2;
+  }
+}
+
+.swiper-pagination {
+  .swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    text-align: center;
+    line-height: 10px !important;
+    font-size: 12px;
+    opacity: 1;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 3px;
+    cursor: pointer;
+  }
+  .swiper-pagination-bullet-active {
+    color: white;
+    background: #d24648;
+    transform: scale(1);
+  }
+}

@@ -6,6 +6,7 @@ import Gallery from "@/components/Gallery";
 import Statistics from "@/components/Statistics";
 import Blog from "@/components/Blog";
 import Different from "@/components/Different";
+import TestimonialContainer from "@/components/TestimonialContainer";
 
 type Props = {};
 
@@ -18,6 +19,8 @@ const Home = (props: Props) => {
       <Gallery />
       <Statistics />
       <Blog />
+      <Different />
+      <TestimonialContainer />
     </>
   );
 };
