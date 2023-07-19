@@ -6,7 +6,7 @@ type Props = {};
 
 const LaserScroll = (props: Props) => {
   return (
-    <section className="bg-[#FFD7D7] text-container py-10">
+    <section className="bg-peach text-container py-10 my-5">
       <div className="relative min-h-[470px]">
         <hr className="h-px my-8 bg-black border-0" />
         <h1 className="scrolling-text text-6xl text-[#FFD7D7]">

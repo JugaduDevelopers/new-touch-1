@@ -1,15 +1,12 @@
-import Banner from "@/components/Banner";
-import Slider from "@/components/Slider";
+import ResurfacingCard from "@/components/ResurfacingCard";
+import Banner from "../components/Banner";
+import Consultation from "@/components/consultation";
 import React from "react";
 import Gallery from "@/components/Gallery";
 import Statistics from "@/components/Statistics";
 import Blog from "@/components/Blog";
 import Different from "@/components/Different";
-import LaserScroll from "@/components/LaserScroll";
-import About from "@/components/About";
-import Branch from "@/components/Branch";
-import VideoGallery from "@/components/VideoGallery";
-import GetAQuote from "@/components/GetAQuote";
+import TestimonialContainer from "@/components/TestimonialContainer";
 
 type Props = {};
 
@@ -17,15 +14,13 @@ const Home = (props: Props) => {
   return (
     <>
       <Banner />
+      <Consultation />
+      <Different />
       <Gallery />
       <Statistics />
       <Blog />
       <Different />
-      {/* <LaserScroll /> */}
-      <About />
-      <Branch />
-      <VideoGallery />
-      <GetAQuote />
+      <TestimonialContainer />
     </>
   );
 };
