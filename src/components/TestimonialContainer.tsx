@@ -1,9 +1,18 @@
+"use client";
+
 import TestimonialCard from "@/components/TestimonialCard";
 import React from "react";
+import "swiper/css/pagination";
+import "swiper/css";
+import "../app/testimonial.css";
+import { Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
 type Props = {};
 
-const Home = (props: Props) => {
+const TestimonialContainer = (props: Props) => {
+  const swiper = useSwiper();
+
   return (
     <>
       <div className="bg-[#FFD7D7] py-10">
@@ -14,16 +23,36 @@ const Home = (props: Props) => {
           <h3 className="flex justify-center items-center mb-10 max-sm:text-3xl">
             What Our Client Says
           </h3>
-          <div className="flex flex-wrap">
-            <TestimonialCard />
-            <TestimonialCard />
-            <TestimonialCard />
-            <TestimonialCard />
-          </div>
+
+          <Swiper
+            modules={[Pagination, Navigation]}
+            pagination={{
+              clickable: true,
+            }}
+            spaceBetween={50}
+            slidesPerView={1}
+          >
+            <SwiperSlide>
+              <div className="flex flex-wrap">
+                <TestimonialCard />
+                <TestimonialCard />
+                <TestimonialCard />
+              </div>
+            </SwiperSlide>
+            {/* <SwiperSlide>
+              <TestimonialCard />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TestimonialCard />
+            </SwiperSlide> */}
+            <SwiperSlide>
+              <TestimonialCard />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </>
   );
 };
 
-export default Home;
+export default TestimonialContainer;

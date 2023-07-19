@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     fontWeight: {
@@ -15,7 +16,7 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        "auto-fit": "repeat(auto-fit, minmax(200px,1fr))",
+        "auto-fit": "repeat(auto-fit, minmax(300px,1fr))",
       },
       spacing: {
         container: `max(
@@ -33,9 +34,16 @@ module.exports = {
         redX: "#D24648",
         whiteX: "#FFFFFF",
         darkred: "#9E2E33",
+        darkPinkX: "#F39297",
+        greyX: "#f5f5f5",
+        peach: "#FFD7D7",
+        line: "#E4A9A9",
       },
       backgroundImage: {
         banner: "url('../../public/images/bannerImage.png')",
+      },
+      aspectRatio: {
+        sliderDragableImage: "3/1",
       },
     },
   },
