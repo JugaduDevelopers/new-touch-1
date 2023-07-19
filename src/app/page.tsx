@@ -14,10 +14,10 @@ const Home = (props: Props) => {
     <>
       <Banner />
       <Consultation />
+      <Different />
       <Gallery />
       <Statistics />
       <Blog />
-      <Different />
     </>
   );
 };

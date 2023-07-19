@@ -31,6 +31,17 @@ p {
   }
 }
 
+.box {
+  border: 8px solid white;
+  box-shadow: 50px 50px 0px #ededed, 60px 60px #ebd0d0, 40px 60px #ebd0d0,
+    60px 40px #ebd0d0;
+
+  @media screen and (max-width: 640px) {
+    box-shadow: 30px 40px 0px #ededed, 40px 50px #ebd0d0, 20px 50px #ebd0d0,
+      40px 30px #ebd0d0;
+  }
+}
+
 .rc-accordion-toggle {
   @apply bg-pinkX flex items-center justify-between transition-all duration-1000 border-2 border-redX border-opacity-60 rounded-md;
 }

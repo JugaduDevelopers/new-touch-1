@@ -1,5 +1,4 @@
 import React from "react";
-import BannerImg from "../../public/images/bannerImage.png";
 import Slider from "./Slider";
 
 type Props = {};
