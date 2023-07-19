@@ -6,6 +6,10 @@ import Statistics from "@/components/Statistics";
 import Blog from "@/components/Blog";
 import Different from "@/components/Different";
 import LaserScroll from "@/components/LaserScroll";
+import About from "@/components/About";
+import Branch from "@/components/Branch";
+import VideoGallery from "@/components/VideoGallery";
+import GetAQuote from "@/components/GetAQuote";
 
 type Props = {};
 
@@ -17,7 +21,11 @@ const Home = (props: Props) => {
       <Statistics />
       <Blog />
       <Different />
-      <LaserScroll />
+      {/* <LaserScroll /> */}
+      <About />
+      <Branch />
+      <VideoGallery />
+      <GetAQuote />
     </>
   );
 };

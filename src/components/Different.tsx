@@ -17,14 +17,14 @@ const Different = (props: Props) => {
           width={700}
           className="border-8 z-10 border-white aspect-auto shadow-xl"
         />
-        <div>
+        {/* <div>
           <Image
             src={Second}
             alt="First"
             width={650}
             className="absolute xl:top-16 xl:left-28 lg:top-28 lg:left-10 aspect-square shadow-xl"
           />
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col justify-start pt-16">
         <p className="text-redX uppercase">Why choose us</p>
