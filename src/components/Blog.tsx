@@ -43,7 +43,7 @@ const Blog = (props: Props) => {
         <p className="text-redX ">FEATURED POSTS</p>
         <h3 className="text-4xl">From Our Blog</h3>
       </div>
-      <div className="grid grid-cols-auto-fit gap-10 container mx-auto px-5">
+      <div className="grid grid-cols-auto-fit gap-10 container mx-auto px-3">
         {b.map((x) => (
           <div className=" flex flex-col gap-3 min-w-[300px] py-8" key={x.id}>
             <Image
