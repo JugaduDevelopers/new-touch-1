@@ -41,6 +41,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('../../public/images/bannerImage.png')",
+        bannerLaserSkin: "url('../../public/images/laser-skin.png')",
       },
       aspectRatio: {
         sliderDragableImage: "3/1",
