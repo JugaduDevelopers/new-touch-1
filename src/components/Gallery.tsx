@@ -49,7 +49,7 @@ const Gallery = (props: Props) => {
         <p className="text-redX ">Desired procedure to begin</p>
         <h3 className="text-center">Before After Gallery</h3>
       </div>
-      <div className="grid grid-cols-auto-fit gap-10 container mx-auto px-5">
+      <div className="grid grid-cols-auto-fit gap-10 container mx-auto px-3">
         {a.map((x) => (
           <div
             className=" flex flex-col items-center justify-center gap-3 min-w-[300px] md:py-8 py-5  "
