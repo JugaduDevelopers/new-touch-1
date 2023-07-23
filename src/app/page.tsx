@@ -14,15 +14,14 @@ type Props = {};
 const Home = (props: Props) => {
   return (
     <>
-      {/* <Banner />
+      <Banner />
       <Consultation />
       <Different />
       <Gallery />
       <Statistics />
       <Blog />
       <Different />
-      <TestimonialContainer /> */}
-      <Contact />
+      <TestimonialContainer />
     </>
   );
 };
