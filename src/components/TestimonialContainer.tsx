@@ -24,31 +24,51 @@ const TestimonialContainer = (props: Props) => {
             What Our Client Says
           </h3>
 
-          <Swiper
-            modules={[Pagination, Navigation]}
-            pagination={{
-              clickable: true,
-            }}
-            spaceBetween={50}
-            slidesPerView={1}
-          >
-            <SwiperSlide>
-              <div className="flex flex-wrap">
-                <TestimonialCard />
-                <TestimonialCard />
-                <TestimonialCard />
-              </div>
-            </SwiperSlide>
-            {/* <SwiperSlide>
-              <TestimonialCard />
-            </SwiperSlide>
-            <SwiperSlide>
-              <TestimonialCard />
-            </SwiperSlide> */}
-            <SwiperSlide>
-              <TestimonialCard />
-            </SwiperSlide>
-          </Swiper>
+          <div className="">
+            <Swiper
+              modules={[Pagination, Navigation]}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                1024: {
+                  slidesPerView: 3,
+                },
+                767: {
+                  slidesPerView: 2,
+                },
+              }}
+            >
+              <SwiperSlide>
+                <TestimonialCard
+                  image={"/images/testimonial1.png"}
+                  details="highly satisfied with the treatment which I have received and also doctor is very supportive."
+                  name="Hemanshi Devani"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <TestimonialCard
+                  image={"/images/testimonial2.png"}
+                  details="Osm results and services and most kindest Doctor and Staff i love it..."
+                  name="Anu Gosai"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <TestimonialCard
+                  image={"/images/testimonial3.png"}
+                  details="The best ever clinic for skin and hair treatment ..."
+                  name="Maahi Prajapati"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <TestimonialCard
+                  image={"/images/testimonial1.png"}
+                  details="highly satisfied with the treatment which I have received and also doctor is very supportive."
+                  name="Hemanshi Devani"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
       </div>
     </>
