@@ -7,20 +7,22 @@ import Statistics from "@/components/Statistics";
 import Blog from "@/components/Blog";
 import Different from "@/components/Different";
 import TestimonialContainer from "@/components/TestimonialContainer";
+import Contact from "@/components/Contact";
 
 type Props = {};
 
 const Home = (props: Props) => {
   return (
     <>
-      <Banner />
+      {/* <Banner />
       <Consultation />
       <Different />
       <Gallery />
       <Statistics />
       <Blog />
       <Different />
-      <TestimonialContainer />
+      <TestimonialContainer /> */}
+      <Contact />
     </>
   );
 };
