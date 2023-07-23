@@ -1,9 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
+type Props = {
+  image?: any;
+  details?: string;
+  name?: string;
+};
 
-const TestimonialCard = (props: Props) => {
+const TestimonialCard = ({ details, image, name }: Props) => {
   return (
     <div className="flex justify-center items-center">
       <div className="relative h-96 aspect-square">
@@ -27,7 +31,7 @@ const TestimonialCard = (props: Props) => {
         </div>
         <Image
           alt="Picture"
-          src={"/images/testimonial-img.png"}
+          src={image ?? "/images/testimonial-img.png"}
           height={105}
           width={105}
           className="rounded-full left-[138px]  absolute"
@@ -42,10 +46,10 @@ const TestimonialCard = (props: Props) => {
             />
           </div>
           <p className=" text-xs font-400 line-clamp-2 text-whiteX">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-            quod.
+            {details ??
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quod."}
           </p>
-          <p className="text-sm  text-whiteX">Hemanshi devani</p>
+          <p className="text-sm  text-whiteX">{name ?? "Hemanshi devani"}</p>
         </div>
       </div>
     </div>
