@@ -12,28 +12,30 @@ type Props = {};
 const HeaderTopBar = (props: Props) => {
   return (
     <div className="bg-slate-100 flex justify-end items-center gap-8 max-[991px]:hidden">
-      <div className="max-md:hidden flex gap-5 justify-end py-2 items-center text-sm">
-        <span className="">Welcome to newtouch</span>
-        <span className="h-7 bg-slate-300 w-[2px]" />
-        <div className="gap-3 items-center flex">
-          <Facebook />
-          <Twitter />
-          <Instagram />
-          <LinkedIn />
-          <Pinterest />
+      <div className=" container mx-auto">
+        <div className="max-md:hidden flex gap-5 justify-end py-2 items-center text-sm">
+          <span className="">Welcome to newtouch</span>
+          <span className="h-7 bg-slate-300 w-[2px]" />
+          <div className="gap-3 items-center flex">
+            <Facebook />
+            <Twitter />
+            <Instagram />
+            <LinkedIn />
+            <Pinterest />
+          </div>
+          <span className="h-7 bg-slate-300 w-[2px]" />
+          <div className="flex gap-2 justify-center items-center">
+            <Call />
+            +91 971 494 9489
+          </div>
+          <span className="h-7 bg-slate-300 w-[2px]" />
+          <div className="flex gap-2 justify-center items-center">
+            <Image src={message} alt="Message" height={24} width={24} />
+            +91 971 494 9489
+          </div>
         </div>
-        <span className="h-7 bg-slate-300 w-[2px]" />
-        <div className="flex gap-2 justify-center items-center">
-          <Call />
-          +91 971 494 9489
-        </div>
-        <span className="h-7 bg-slate-300 w-[2px]" />
-        <div className="flex gap-2 justify-center items-center">
-          <Image src={message} alt="Message" height={24} width={24} />
-          +91 971 494 9489
-        </div>
+        {/* <div className="bg-[#F39297] h-12 w-[261px]"></div> */}
       </div>
-      <div className="bg-[#F39297] h-12 w-[261px]"></div>
     </div>
   );
 };
