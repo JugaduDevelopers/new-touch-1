@@ -202,3 +202,10 @@ footer {
   background: #d24648;
   transform: scale(1);
 }
+
+.text-gradient {
+  background: linear-gradient(180deg, #fff 15.29%, #d24648 77.8%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

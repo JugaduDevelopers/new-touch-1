@@ -10,14 +10,14 @@ import Calendar from "../../public/icons/calendar.svg";
 
 function Header() {
   return (
-    <>
+    <nav className="hidden md:block">
       <HeaderTopBar />
       <div
         className={
           "drop-shadow-lg shadow-darkred bg-whiteX max-md:bg-darkred flex items-center gap-8 py-4 md:py-0"
         }
       >
-        <div className="flex justify-between items-center mx-auto container">
+        <div className="relative flex justify-between items-center mx-auto container">
           <Image
             src={logo}
             height={70}
@@ -42,7 +42,7 @@ function Header() {
           </button>
         </div>
       </div>
-    </>
+    </nav>
   );
 }
 

@@ -19,18 +19,18 @@ function TestNav() {
         {isOpen ? <CloseMenuSvg width="32px" /> : <MenuSvg width="32px" />}
       </button>
       <div
-        className={`top-0 right-0 fixed h-screen w-full bg-whiteX  p-10 z-10 drop-shadow-2xl ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        } ease-in-out duration-200 md:hidden flex flex-col items-center gap-14`}
+        className={`sticky top-0 block  h-screen w-full bg-whiteX  p-10  drop-shadow-2xl ${
+          isOpen ? "-translate-x-10" : "translate-x-96"
+        } ease-in-out duration-200 md:hidden `}
       >
-        {isOpen && (
+        {/* {isOpen && (
           <div className="-ml-16 -mt-4">
             <button className=" border bg-[#FFDFDF] text-redX z-20 justify-center border-redX flex items-center py-2 px-4 gap-4">
               <Calendar />
               Book Appointment
             </button>
           </div>
-        )}
+        )} */}
         <nav>
           <ul className="flex items-center flex-col gap-12">
             <Li isOpen={isOpen} setIsOpen={setIsOpen} />

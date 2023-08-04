@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import { Lato } from "next/font/google";
 import { Metadata } from "next";
+import SmallHeaderX from "@/components/HeaderX";
 
 const inter = Lato({
   subsets: ["latin"],
@@ -28,8 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} font-400`}>
         <Header />
+        <SmallHeaderX />
         <main>{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
