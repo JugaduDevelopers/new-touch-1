@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import DragablePicture from "../../public/images/dragablePicture.png";
-import Image2 from "../../public/images/imageto drag.webp";
-import Image3 from "../../public/images/imagetoDrag2.webp";
+import DragablePicture from "../images/dragablePicture.png";
+import Image2 from "../images/imageto drag.webp";
+import Image3 from "../images/imagetoDrag2.webp";
 import Image from "next/image";
 
 const DragableDiv = () => {

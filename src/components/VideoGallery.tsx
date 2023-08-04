@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import yt1 from "../../public/images/yt1.png";
-import yt2 from "../../public/images/yt2.png";
+import yt1 from "../images/yt1.png";
+import yt2 from "../images/yt2.png";
 
 type Props = {};
 

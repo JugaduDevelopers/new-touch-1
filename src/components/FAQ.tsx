@@ -1,7 +1,7 @@
 import React from "react";
 import AccordionBox from "@/components/AccordionBox";
 import { FAQData } from "@/app/services/data";
-import CurveLines from "../../public/icons/curveLines.svg";
+import CurveLines from "../icons/curveLines.svg";
 
 type Props = { faqs: FAQData[] };
 

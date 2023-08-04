@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Hair from "../../public/images/Hair.png";
-import Dermatology from "../../public/images/Dermatologties.png";
-import Beauty from "../../public/images/Beauty.png";
-import Medical from "../../public/images/Medical.png";
-import skinHair from "../../public/images/s&h.png";
+import Hair from "../images/Hair.png";
+import Dermatology from "../images/Dermatologties.png";
+import Beauty from "../images/Beauty.png";
+import Medical from "../images/Medical.png";
+import skinHair from "../images/s&h.png";
 
 type Props = {};
 

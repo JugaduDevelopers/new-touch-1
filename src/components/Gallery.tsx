@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import First from "../../public/images/B_A_G_1.png";
-import Second from "../../public/images/B_A_G_2.png";
-import Third from "../../public/images/B_A_G_3.png";
-import Fourth from "../../public/images/B_A_G_4.png";
-import Fifth from "../../public/images/B_A_G_5.png";
-import Sixth from "../../public/images/B_A_G_6.png";
+import First from "../images/B_A_G_1.png";
+import Second from "../images/B_A_G_2.png";
+import Third from "../images/B_A_G_3.png";
+import Fourth from "../images/B_A_G_4.png";
+import Fifth from "../images/B_A_G_5.png";
+import Sixth from "../images/B_A_G_6.png";
 
 type Props = {};
 

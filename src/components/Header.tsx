@@ -1,11 +1,11 @@
 import React, { memo, useEffect, useState } from "react";
 import LgNav from "./lgNav";
-import logo from "../../public/images/logo-head.png";
-import logo2 from "../../public/images/footer-logo.png";
+import logo from "../images/logo-head.png";
+import logo2 from "../images/footer-logo.png";
 import TestNav from "./testNav";
 import Image from "next/image";
 import HeaderTopBar from "./HeaderTopBar";
-import Calendar from "../../public/icons/calendar.svg";
+import Calendar from "../icons/calendar.svg";
 // import "../styles/header.css";
 
 function Header() {

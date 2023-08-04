@@ -1,5 +1,5 @@
 import React from "react";
-import laserSkin from "../../public/images/laser-skin.png";
+import laserSkin from "../images/laser-skin.png";
 import Image from "next/image";
 
 type Props = {};

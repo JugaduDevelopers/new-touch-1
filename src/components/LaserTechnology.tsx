@@ -2,8 +2,8 @@ import { ResurfacingData } from "@/app/services/data";
 import React from "react";
 import ResurfacingCard from "./ResurfacingCard";
 import Image from "next/image";
-import LaserSkin from "../../public/images/laserSkin.png";
-import CurveLines from "../../public/icons/curveLines.svg";
+import LaserSkin from "../images/laserSkin.png";
+import CurveLines from "../icons/curveLines.svg";
 
 type Props = {
   resurfacingData: ResurfacingData[];

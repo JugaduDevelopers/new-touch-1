@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImage from "../../public/images/bannersliderImage.png";
+import BannerImage from "../images/bannersliderImage.png";
 import Image from "next/image";
 
 type Props = {};

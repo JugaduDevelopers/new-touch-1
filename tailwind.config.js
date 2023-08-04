@@ -40,8 +40,8 @@ module.exports = {
         line: "#E4A9A9",
       },
       backgroundImage: {
-        banner: "url('../../public/images/bannerImage.png')",
-        bannerLaserSkin: "url('../../public/images/laser-skin.png')",
+        banner: "url('./src/images/bannerImage.png')",
+        bannerLaserSkin: "url('./src/images/laser-skin.png')",
       },
       aspectRatio: {
         sliderDragableImage: "3/1",

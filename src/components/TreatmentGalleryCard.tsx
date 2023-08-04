@@ -1,6 +1,6 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
-import Youtube from "../../public/icons/youtube.svg";
+import Youtube from "../icons/youtube.svg";
 
 type Props = {
   imageRef: StaticImageData;

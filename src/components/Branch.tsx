@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Nikol from "../../public/images/Nikol.png";
-import Shyamal from "../../public/images/Shyamal.png";
-import Graph from "../../public/images/graph.png";
+import Nikol from "../images/Nikol.png";
+import Shyamal from "../images/Shyamal.png";
+import Graph from "../images/graph.png";
 
 type Props = {};
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import First from "../../public/images/Laser_2.png";
+import First from "../images/Laser_2.png";
 
 type Props = {};
 

@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, memo } from "react";
-import CloseMenuSvg from "../../public/icons/close_menu.svg";
-import MenuSvg from "../../public/icons/menu.svg";
+import CloseMenuSvg from "../icons/close_menu.svg";
+import MenuSvg from "../icons/menu.svg";
 import Li from "./li";
-import Calendar from "../../public/icons/calendar_red.svg";
+import Calendar from "../icons/calendar_red.svg";
 
 function TestNav() {
   const [isOpen, setIsOpen] = useState(false);

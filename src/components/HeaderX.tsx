@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import Newtouch from "../../public/images/footer-logo.png";
-import Menu from "../../public/icons/menu.svg";
-import Calendar from "../../public/icons/calendar_red.svg";
-import CloseMenuSvg from "../../public/icons/close_menu.svg";
+import Newtouch from "../images/footer-logo.png";
+import Menu from "../icons/menu.svg";
+import Calendar from "../icons/calendar_red.svg";
+import CloseMenuSvg from "../icons/close_menu.svg";
 import Li from "./li";
 
 type Props = {};

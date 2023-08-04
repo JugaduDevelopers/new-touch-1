@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import First from "../../public/images/Diff_1.png";
-import Second from "../../public/images/Diff_B.png";
+import First from "../images/Diff_1.png";
+import Second from "../images/Diff_B.png";
 
 type Props = {};
 

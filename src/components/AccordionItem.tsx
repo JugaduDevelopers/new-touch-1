@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import DownArrow from "../../public/icons/DownArrow.svg";
+import DownArrow from "../icons/DownArrow.svg";
 import { FAQData } from "@/app/services/data";
 
 type Props = {

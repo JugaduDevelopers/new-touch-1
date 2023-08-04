@@ -5,9 +5,9 @@ import "swiper/css";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import TreatmentGalleryCard from "./TreatmentGalleryCard";
-import treatment1 from "../../public/images/treatment1.png";
-import treatment2 from "../../public/images/treatment2.png";
-import treatment3 from "../../public/images/treatment3.png";
+import treatment1 from "../images/treatment1.png";
+import treatment2 from "../images/treatment2.png";
+import treatment3 from "../images/treatment3.png";
 
 type Props = {};
 

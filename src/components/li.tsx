@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React, { memo } from "react";
-import { navLinks } from "../../public/navLinks";
+import { navLinks } from "../navLinks";
 import { usePathname } from "next/navigation";
 
 function Li({ setIsOpen = (x: boolean) => {}, isOpen = false }) {

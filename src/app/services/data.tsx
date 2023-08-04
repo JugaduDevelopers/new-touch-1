@@ -1,6 +1,6 @@
-import GirlAnimation from "../../../public/icons/girl.svg";
-import ChemicalAnimation from "../../../public/icons/chemical.svg";
-import BottleAnimation from "../../../public/icons/bottle.svg";
+import GirlAnimation from "../../icons/girl.svg";
+import ChemicalAnimation from "../../icons/chemical.svg";
+import BottleAnimation from "../../icons/bottle.svg";
 import { StaticImageData } from "next/image";
 
 export type ResurfacingData = {
