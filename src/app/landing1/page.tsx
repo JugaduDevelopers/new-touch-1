@@ -9,13 +9,13 @@ import Different from "@/components/Different";
 import First from "../../images/Diff_1.png";
 import TestimonialContainer from "@/components/TestimonialContainer";
 import Footer from "@/components/Footer";
-import Plus from "./lhr-plus.svg";
-import Person from "./lhr-person.svg";
-import World from "./lhr-world.svg";
-import Last from "./lhr-last.svg";
-import Google from "./bottom-google.svg";
-import Fb from "./bottom-fb.svg";
-import Jd from "./bottom-jd.svg";
+// import Plus from "./lhr-plus.svg";
+// import Person from "./lhr-person.svg";
+// import World from "./lhr-world.svg";
+// import Last from "./lhr-last.svg";
+// import Google from "./bottom-google.svg";
+// import Fb from "./bottom-fb.svg";
+// import Jd from "./bottom-jd.svg";
 type Props = {};
 
 const LandingPage1 = (props: Props) => {
@@ -157,7 +157,7 @@ const LandingPage1 = (props: Props) => {
 
           <div className="flex border-b-2 border-line pb-10 items-center sm:justify-around justify-center px-5 container mx-auto sm:pt-16 pt-10 gap-5 flex-wrap">
             <div className="flex">
-              <Plus />
+              {/* <Plus /> */}
               <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
                 <h3 className="text-redX">24+</h3>
                 <p>In-House Doctors</p>
@@ -165,7 +165,7 @@ const LandingPage1 = (props: Props) => {
             </div>
             <span className="px-[1px] py-10 bg-line md:block hidden"></span>
             <div className="flex">
-              <Person />
+              {/* <Person /> */}
               <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
                 <h3 className="text-redX">250+</h3>
                 <p>Happy Clients</p>
@@ -173,7 +173,7 @@ const LandingPage1 = (props: Props) => {
             </div>
             <span className="px-[1px] py-10 bg-line md:block hidden"></span>
             <div className="flex">
-              <World />
+              {/* <World /> */}
               <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
                 <h3 className="text-redX">5+</h3>
                 <p>Medical Branches</p>
@@ -181,7 +181,7 @@ const LandingPage1 = (props: Props) => {
             </div>
             <span className="px-[1px] py-10 bg-line xl:block hidden"></span>
             <div className="flex">
-              <Last />
+              {/* <Last /> */}
               <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
                 <h3 className="text-redX">135+</h3>
                 <p>Success Therapies</p>
@@ -195,9 +195,9 @@ const LandingPage1 = (props: Props) => {
           People really like us!
         </h5>
         <div className="flex gap-5 flex-wrap justify-center items-center">
-          <Google />
+          {/* <Google />
           <Fb />
-          <Jd />
+          <Jd /> */}
         </div>
       </section>
       <Footer />
