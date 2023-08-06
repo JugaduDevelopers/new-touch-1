@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import React, { memo } from "react";
-import { navLinks } from "../navLinks";
 import { usePathname } from "next/navigation";
+import { navLinks } from "../../public/navLinks";
 
 function Li({ setIsOpen = (x: boolean) => {}, isOpen = false }) {
   const pathname = usePathname();

@@ -39,10 +39,6 @@ module.exports = {
         peach: "#FFD7D7",
         line: "#E4A9A9",
       },
-      backgroundImage: {
-        banner: "url('./src/images/bannerImage.png')",
-        bannerLaserSkin: "url('./src/images/laser-skin.png')",
-      },
       aspectRatio: {
         sliderDragableImage: "3/1",
       },

@@ -28,10 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} font-400`}>
-        <Header />
-        <SmallHeaderX />
         <main>{children}</main>
-        {/* <Footer /> */}
       </body>
     </html>
   );
