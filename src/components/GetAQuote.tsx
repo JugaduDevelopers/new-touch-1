@@ -7,7 +7,7 @@ const GetAQuote = (props: Props) => {
     <div className="bg-[#F5F5F5]">
       <div className="flex md:gap-10 gap-5 container mx-auto py-10 md:flex-nowrap flex-wrap px-10">
         <div className="flex flex-col justify-center items-center py-10 md:w-1/4 w-full">
-          <p className="text-[#D24648] text-start uppercase font-100 text-lg">
+          <p className="text-redX text-start uppercase font-100 text-lg">
             Request for your
           </p>
           <h4 className="text-4xl font-bold text-start">Get A Quote!</h4>

@@ -17,11 +17,24 @@ import Footer from "../components/Footer";
 // import Google from "./bottom-google.svg";
 // import Fb from "./bottom-fb.svg";
 // import Jd from "./bottom-jd.svg";
+import logo from "../../public/images/footer-logo.png";
+
 type Props = {};
 
 const LandingPage1 = (props: Props) => {
   return (
     <>
+      <header className="bg-redX">
+        <div className="container mx-auto max-md:px-5 py-5">
+          <Image
+            src={logo}
+            height={100}
+            width={100}
+            alt="Logo"
+            // className="max-md:hidden ml-10"
+          />
+        </div>
+      </header>
       <section className=" bg-[#D24648] px-5 pt-10 xl:pt-0 pb-5 lg:h-[500px] xl:h-[650px]">
         <div className="relative container mx-auto  bg-[#D24648]">
           <h1 className=" hidden xl:block  absolute top-0 left-[12%]  text-gradient text-[100px] min-[1100px]:text-[130px] min-[1200px]:text-[160px] min-[1295px]:text-[180px] leading-[120%] font-900 text-center">
@@ -37,13 +50,12 @@ const LandingPage1 = (props: Props) => {
                 Ahmedabad
               </h1>
               <h5 className="text-[25px] text-white font-900 leading-[120%]">
-                We do moreLaser Hair Reductionthan anyone else.
+                We do more Laser Hair Reduction than anyone else.
               </h5>
             </div>
             <div>
               <Image src={Girl} alt="girl" />
             </div>
-            s
           </div>
         </div>
       </section>
@@ -58,7 +70,7 @@ const LandingPage1 = (props: Props) => {
           <hr className="h-px  bg-black border-0" />
         </div>
         <div className="flex justify-center items-center mt-10">
-          <div className="max-w-5xl">
+          <div className="max-w-5xl px-5">
             <h3 className="text-[35px] font-700 leading-[120%] capitalize">
               Now, there is a better solution to <br /> remove unwanted hair
             </h3>
@@ -121,10 +133,10 @@ const LandingPage1 = (props: Props) => {
           </div>
           <div className="max-w-2xl flex flex-col py-5 lg:pt-28 pb-5 ">
             <p className="text-redX uppercase lg:text-lg xl:text-[14px]">
-              HOW IT’S WORK
+              HOW IT WORKS
             </p>
             <h2 className=" text-3xl xl:text-5xl">How Does it Works</h2>
-            <p className="text-sm xl:text-lg font-300 pt-3">
+            <p className="text-base xl:text-lg pt-3 ">
               Lasers generate energy in the hair shaft, which diffuses to the
               matrix targets to cause desired damage. It means when pigment in
               hair follicles absorbs the light emitted by the LASER system. The
@@ -132,10 +144,10 @@ const LandingPage1 = (props: Props) => {
               hair's growth.
             </p>
 
-            <p className=" text-black uppercase lg:text-lg xl:text-[35px]">
+            <p className=" text-black uppercase py-3 text-lg lg:text-xl xl:text-[35px]">
               Treatment Time and Recovery
             </p>
-            <p className="text-sm xl:text-lg font-300 pt-3">
+            <p className="text-base xl:text-lg ">
               The number of treatments required depends on several factors
               including hair and skin type. Laser hair removal treats hair in an
               active growth phase. Since all hairs are not in this phase at the
