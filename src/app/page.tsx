@@ -25,7 +25,7 @@ const LandingPage1 = (props: Props) => {
   return (
     <>
       <header className="bg-redX">
-        <div className="container mx-auto max-md:px-5 py-5">
+        <div className="container mx-auto max-md:px-5 py-5 md:px-28 ">
           <Image
             src={logo}
             height={100}
