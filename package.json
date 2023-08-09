@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-     "start": "node_modules/next/dist/bin/next start -p $PORT",
+    "start": "node_modules/next/dist/bin/next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@types/node": "20.2.5",
     "@types/react": "18.2.8",
     "@types/react-dom": "18.2.4",

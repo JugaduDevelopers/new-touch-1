@@ -6,7 +6,7 @@ import BG2 from "../../public/images/bg2.png";
 import Consultation from "../components/consultation";
 import GetAQuote from "../components/GetAQuote";
 import Different from "../components/Different";
-import First from "../../public/images/Diff_1.png";
+import First from "../../public/images/Diff_1.jpg";
 // import TestimonialContainer from "@/components/TestimonialContainer";
 import TestimonialContainer from "../components/TestimonialContainer";
 import Footer from "../components/Footer";
@@ -74,7 +74,7 @@ const LandingPage1 = (props: Props) => {
             <h3 className="text-[35px] font-700 leading-[120%] capitalize">
               Now, there is a better solution to <br /> remove unwanted hair
             </h3>
-            <p className="text-[25px] font-400 leading-[120%] capitalize">
+            <p className="text-[25px] font-400 leading-[120%] capitalize py-4">
               <span className="text-redX font-700">New Touch Skin Care</span>'s
               laser hair reduction unit is equipped with
               <span className="text-redX font-700">LightSheer® INFINITY™</span>
@@ -83,7 +83,7 @@ const LandingPage1 = (props: Props) => {
               types are increasingly demanding solutions that are tailored to
               their needs.
             </p>
-            <p className="text-[25px] font-400 leading-[120%] capitalize">
+            <p className="text-[25px] font-400 leading-[120%] capitalize py-4">
               <span className="text-redX font-700">
                 The LightSheer® INFINITY™
               </span>
@@ -162,57 +162,6 @@ const LandingPage1 = (props: Props) => {
         </div>
       </section>
       <TestimonialContainer />
-      {/* <section>
-        <div className="flex flex-col items-center justify-center py-10">
-          <h5 className="font-700 leading-[120%]  text-[35px] text-center">
-            Why LHR at New Touch Hair Care?
-          </h5>
-
-          <div className="flex border-b-2 border-line pb-10 items-center sm:justify-around justify-center px-5 container mx-auto sm:pt-16 pt-10 gap-5 flex-wrap">
-            <div className="flex">
-              <Plus />
-              <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
-                <h3 className="text-redX">24+</h3>
-                <p>In-House Doctors</p>
-              </div>
-            </div>
-            <span className="px-[1px] py-10 bg-line md:block hidden"></span>
-            <div className="flex">
-              <Person />
-              <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
-                <h3 className="text-redX">250+</h3>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-            <span className="px-[1px] py-10 bg-line md:block hidden"></span>
-            <div className="flex">
-              <World />
-              <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
-                <h3 className="text-redX">5+</h3>
-                <p>Medical Branches</p>
-              </div>
-            </div>
-            <span className="px-[1px] py-10 bg-line xl:block hidden"></span>
-            <div className="flex">
-              <Last />
-              <div className="min-w-[250px] flex flex-col sm:items-start items-center ">
-                <h3 className="text-redX">135+</h3>
-                <p>Success Therapies</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="py-5">
-        <h5 className="font-700 leading-[120%]  text-[35px] text-center pb-10">
-          People really like us!
-        </h5>
-        <div className="flex gap-5 flex-wrap justify-center items-center">
-          <Google />
-          <Fb />
-          <Jd />
-        </div>
-      </section> */}
       <Footer />
     </>
   );
