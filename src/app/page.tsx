@@ -18,6 +18,9 @@ import Footer from "../components/Footer";
 // import Fb from "./bottom-fb.svg";
 // import Jd from "./bottom-jd.svg";
 import logo from "../../public/images/footer-logo.png";
+import google from "../../public/images/google.png";
+import justdial from "../../public/images/justdial.png";
+import facebook from "../../public/images/facebook.png";
 
 type Props = {};
 
@@ -161,7 +164,46 @@ const LandingPage1 = (props: Props) => {
           </div>
         </div>
       </section>
+
       <TestimonialContainer />
+      <div className="flex flex-col items-center justify-center py-10">
+        <h3 className="px-5">Why LHR at New Touch Hair Care?</h3>
+        <div className="flex  items-center sm:justify-around justify-center px-5 container mx-auto sm:pt-16 pt-10 gap-5 flex-wrap">
+          <div className="flex flex-col sm:items-start items-center ">
+            <h3 className="text-redX">24+</h3>
+            <p>In-House Doctors</p>
+          </div>
+          <span className="px-[1px] py-10 bg-line md:block hidden"></span>
+          <div className="flex flex-col sm:items-start items-center ">
+            <h3 className="text-redX">250+</h3>
+            <p>Happy Clients</p>
+          </div>
+          <span className="px-[1px] py-10 bg-line md:block hidden"></span>
+          <div className="flex flex-col sm:items-start items-center ">
+            <h3 className="text-redX">5+</h3>
+            <p>Medical Branches</p>
+          </div>
+          <span className="px-[1px] py-10 bg-line xl:block hidden"></span>
+          <div className="flex flex-col sm:items-start items-center ">
+            <h3 className="text-redX">135+</h3>
+            <p>Success Therapies</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex-col item-center justify-center mb-20">
+        <h3 className="text-center mb-10">People really like us!</h3>
+        <div className="flex-wrap   flex gap-10 mx-auto justify-center  items-center">
+          <div className="border-2 rounded-2xl p-5 h-40 w-80 border-redX">
+            <Image src={google} alt={"google"} />
+          </div>
+          <div className="border-2 rounded-2xl p-5 h-40 w-80 border-redX">
+            <Image src={facebook} alt={"facebook"} />
+          </div>
+          <div className="border-2 rounded-2xl p-5 w-80 h-40 border-redX">
+            <Image src={justdial} alt={"justdial"} />
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );
