@@ -8,11 +8,11 @@ export default function Footer() {
     <>
       <div className="bg-darkred text-whiteX">
         <div className="container mx-auto max-md:px-5">
-          <footer className="grid-cols-auto-fit grid gap-2 max-md:gap-10 py-10">
+          <h3 className="text-white text-2xl min-[770px]:hidden pt-3 mb-0">
+            New Touch Skin Care
+          </h3>
+          <footer className="grid-cols-auto-fit grid gap-2 max-md:gap-10 py-3">
             <Image className="max-lg:hidden" src={logo} alt="Logo" />
-            <h3 className="text-white text-3xl min-[770px]:hidden">
-              New Touch Skin Care
-            </h3>
             <div className="max-lg:hidden">
               <h4>Treatments</h4>
               <ul className="list-disc flex flex-col gap-1">
@@ -107,7 +107,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="h-full  lg:hidden">
-              <h4>Shyamal Branch</h4>
+              <h5 className="text-xl font-700">Shyamal Branch</h5>
               <ul className="flex flex-col gap-1">
                 <li className="flex gap-2">
                   <Image
@@ -172,7 +172,7 @@ export default function Footer() {
               </li>
             </div>
             <div className="h-full  lg:hidden">
-              <h4>Nikol Branch</h4>
+              <h5 className="text-xl font-700">Nikol Branch</h5>
               <ul className="flex flex-col gap-1">
                 <li className="flex gap-2">
                   <Image

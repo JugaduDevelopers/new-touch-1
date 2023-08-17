@@ -191,8 +191,8 @@ const LandingPage1 = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="flex-col item-center justify-center mb-20 ">
-        <h3 className="text-center mb-10">People really like us!</h3>
+      <div className="flex-col item-center justify-center mb-10 ">
+        <h3 className="text-center mb-3">People really like us!</h3>
         <div className="flex-wrap   flex gap-10 mx-auto justify-center  items-center px-3">
           <div className="border-2 rounded-2xl p-5 h-40 w-80 border-redX">
             <Image src={google} alt={"google"} />
