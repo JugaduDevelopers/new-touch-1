@@ -174,7 +174,7 @@ const LandingPage1 = (props: Props) => {
       <TestimonialContainer />
       <div className="flex flex-col items-center justify-center py-10">
         <h3 className="px-5">Why LHR at New Touch Hair Care?</h3>
-        <div className="flex  items-center sm:justify-around justify-center px-5 container mx-auto sm:pt-16 pt-10 gap-5 flex-wrap">
+        <div className="flex  items-center sm:justify-around justify-center px-5 container mx-auto pt-5 gap-5 flex-wrap">
           <div className="flex flex-col sm:items-start items-center ">
             <h3 className="text-redX">15000+</h3>
             <p>Happy Clients</p>
@@ -192,7 +192,7 @@ const LandingPage1 = (props: Props) => {
         </div>
       </div>
       <div className="flex-col item-center justify-center mb-10 ">
-        <h3 className="text-center mb-3">People really like us!</h3>
+        <h3 className="text-center mb-5">People really like us!</h3>
         <div className="flex-wrap   flex gap-10 mx-auto justify-center  items-center px-3">
           <div className="border-2 rounded-2xl p-5 h-40 w-80 border-redX">
             <Image src={google} alt={"google"} />
