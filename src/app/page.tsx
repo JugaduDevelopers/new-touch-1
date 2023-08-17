@@ -21,6 +21,7 @@ import logo from "../../public/images/footer-logo.png";
 import google from "../../public/images/google.png";
 import justdial from "../../public/images/justdial.png";
 import facebook from "../../public/images/facebook.png";
+import Link from "next/link";
 
 type Props = {};
 
@@ -28,17 +29,19 @@ const LandingPage1 = (props: Props) => {
   return (
     <>
       <header className="bg-redX">
-        <div className="container mx-auto max-md:px-5 py-5 md:px-28 ">
-          <Image
-            src={logo}
-            height={100}
-            width={100}
-            alt="Logo"
-            // className="max-md:hidden ml-10"
-          />
+        <div className="container mx-auto max-md:px-5 py-3 md:px-28 ">
+          <a href="https://newtouch.in/" target="_blank">
+            <Image
+              src={logo}
+              height={100}
+              width={100}
+              alt="Logo"
+              // className="max-md:hidden ml-10"
+            />
+          </a>
         </div>
       </header>
-      <section className=" bg-[#D24648] px-5 pt-10 xl:pt-0 pb-5 lg:h-[500px] xl:h-[650px]">
+      <section className=" bg-[#D24648] px-5 pt-6 xl:pt-0 pb-5 lg:h-[500px] xl:h-[650px]">
         <div className="relative container mx-auto  bg-[#D24648]">
           <h1 className=" hidden xl:block  absolute top-0 left-[12%]  text-gradient text-[100px] min-[1100px]:text-[130px] min-[1200px]:text-[160px] min-[1295px]:text-[180px] leading-[120%] font-900 text-center">
             TREATMENT
@@ -63,7 +66,7 @@ const LandingPage1 = (props: Props) => {
         </div>
       </section>
       <GetAQuote />
-      <section className=" py-5">
+      <section className="max-sm:pt-3 pb-5">
         <div className="overflow-hidden">
           <hr className="h-px mb-4 bg-black border-0" />
           <h1 className="scrolling-text text-6xl text-[#FFD7D7]">
@@ -74,21 +77,24 @@ const LandingPage1 = (props: Props) => {
         </div>
         <div className="flex justify-center items-center mt-10">
           <div className="max-w-5xl px-5">
-            <h3 className="text-[35px] font-700 leading-[120%] capitalize">
+            <h3 className="text-[35px] font-700 leading-[120%] ">
               Now, there is a better solution to <br /> remove unwanted hair
             </h3>
-            <p className="text-[25px] font-400 leading-[120%] capitalize py-4">
+            <p className="text-[25px] font-400 leading-[120%]  py-2">
               <span className="text-redX font-700">New Touch Skin Care</span>'s
               laser hair reduction unit is equipped with
-              <span className="text-redX font-700">LightSheer® INFINITY™</span>
+              <span className="text-redX font-700">
+                {" "}
+                LightSheer® INFINITY™ and Deka Moveo technology{" "}
+              </span>
               which opens up a world of infinite laser treatment possibilities.
               Clients from asian ethnic backgrounds and with different skin
               types are increasingly demanding solutions that are tailored to
               their needs.
             </p>
-            <p className="text-[25px] font-400 leading-[120%] capitalize py-4">
+            <p className="text-[25px] font-400 leading-[120%] py-2">
               <span className="text-redX font-700">
-                The LightSheer® INFINITY™
+                The LightSheer® INFINITY™ and Deka Moveo technology{" "}
               </span>
               is a breakthrough in hair reduction and provides a highly
               effective, rapid, safe and comfortable treatment. It can also
@@ -122,8 +128,8 @@ const LandingPage1 = (props: Props) => {
           </div>
         </div>
       </section>
-      <section className="h-auto  lg:mb-10 xl:mt-10 xl:mb-32 flex items-center justify-center">
-        <div className="container mx-auto flex flex-col-reverse px-5 mb-20 lg:flex-row  xl:justify-center items-center lg:gap-16 xl:gap-32">
+      <section className="h-auto  mb-3 flex items-center justify-center">
+        <div className="container mx-auto flex flex-col-reverse px-5 max-lg:mb-20 lg:flex-row  xl:justify-center items-center lg:gap-16 xl:gap-32">
           <div className="pt-4 pr-10 sm:pt-0">
             <div>
               <Image
@@ -170,29 +176,24 @@ const LandingPage1 = (props: Props) => {
         <h3 className="px-5">Why LHR at New Touch Hair Care?</h3>
         <div className="flex  items-center sm:justify-around justify-center px-5 container mx-auto sm:pt-16 pt-10 gap-5 flex-wrap">
           <div className="flex flex-col sm:items-start items-center ">
-            <h3 className="text-redX">24+</h3>
-            <p>In-House Doctors</p>
-          </div>
-          <span className="px-[1px] py-10 bg-line md:block hidden"></span>
-          <div className="flex flex-col sm:items-start items-center ">
-            <h3 className="text-redX">250+</h3>
+            <h3 className="text-redX">15000+</h3>
             <p>Happy Clients</p>
           </div>
           <span className="px-[1px] py-10 bg-line md:block hidden"></span>
           <div className="flex flex-col sm:items-start items-center ">
-            <h3 className="text-redX">5+</h3>
-            <p>Medical Branches</p>
+            <h3 className="text-redX">95%</h3>
+            <p>Retention Rate</p>
           </div>
-          <span className="px-[1px] py-10 bg-line xl:block hidden"></span>
+          <span className="px-[1px] py-10 bg-line md:block hidden"></span>
           <div className="flex flex-col sm:items-start items-center ">
-            <h3 className="text-redX">135+</h3>
-            <p>Success Therapies</p>
+            <h3 className="text-redX">4.7 star</h3>
+            <p>Customer Reviews</p>
           </div>
         </div>
       </div>
-      <div className="flex-col item-center justify-center mb-20">
+      <div className="flex-col item-center justify-center mb-20 ">
         <h3 className="text-center mb-10">People really like us!</h3>
-        <div className="flex-wrap   flex gap-10 mx-auto justify-center  items-center">
+        <div className="flex-wrap   flex gap-10 mx-auto justify-center  items-center px-3">
           <div className="border-2 rounded-2xl p-5 h-40 w-80 border-redX">
             <Image src={google} alt={"google"} />
           </div>
